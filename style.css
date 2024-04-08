@@ -1,33 +1,9 @@
-.main {
-    width: 100vw;
-    height: 500vh;
-    display: flex;
-    font-size: 80px;
-    color: white;
-}
-.main-left {
+.text-top {
     background: #ea4747;
-    flex: 2;
     text-align: left;
-    text-shadow: 50px 50px 6px black;
+    text-shadow: 25px 25px 6px black;
 }
 
-.main-right {
+.img-main {
     background: black;
-    flex: 1;
-    text-align: left;
-    text-shadow: 50px 50px 6px #C62727;
-
 }
-
-h2 {font-size: 49px}
-
-.images{
-    display: flex;
-}
-footer {
-  font-size: 25px  
-}
-/* table {
-    border: 10px
-} */
