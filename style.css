@@ -1,19 +1,41 @@
 .txt-top {
-    background: #b91919;
+    background: black;
     color: rgba(255, 255, 255, 0.918);
     text-align: center;
-    font-size: 90%;
-    height: 125px
+    font-size: 25px;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
 }
 
 .img-main {
     background: black;
-    position: inline
+    position: inline;
 }
 
+.left-text {
+    flex: 1;
+}
+.right-text {
+    flex: 1;
+}
 body, footer{
     background-color: black;
     color: white;
+}
+
+h1 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+h2 {
+    margin: 0px;
 }
 
 a {
